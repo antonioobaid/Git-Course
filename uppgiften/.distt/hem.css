@@ -82,12 +82,12 @@ main {
   .main-image img {
     height: 250px;
   }
-  .nyheter .event {
+  .nyheter .parent-event .event {
     width: 250px;
     height: 400px;
     margin-left: 40px;
   }
-  .nyheter .event img {
+  .nyheter .parent-event .event .image-nyheter {
     width: 250px;
     height: 200px;
   }
@@ -107,7 +107,7 @@ main {
     height: 350px;
     margin-left: 70px;
   }
-  .nyheter .event img {
+  .nyheter .event .image-nyheter {
     width: 220px;
     height: 150px;
   }

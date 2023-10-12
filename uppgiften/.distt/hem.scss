@@ -95,15 +95,15 @@ main {
     height: 250px;
   }
   
-  .nyheter .event {
+  .nyheter .parent-event .event {
     width: 250px;
     height: 400px;
     margin-left: 40px;
-  }
-  
-  .nyheter .event img {
-    width: 250px;
-    height: 200px;
+
+    .image-nyheter {
+      width: 250px;
+      height: 200px;
+    }
   }
 }
 
@@ -124,12 +124,12 @@ main {
     width: 220px;
     height: 350px;
     margin-left: 70px;
-  }
-  
-  .nyheter .event img {
-    width: 220px;
-    height: 150px;
-  }
+
+    .image-nyheter {
+      width: 220px;
+      height: 150px;
+    }
+  }  
 }
 
 @media screen and (max-width: 500px) {

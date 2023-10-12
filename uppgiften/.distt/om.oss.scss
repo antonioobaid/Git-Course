@@ -73,8 +73,7 @@ main {
     .om-företaget,
     .our-team,
     .mrwan-said,
-    .mail-telefon {
-      width: 100%;
+    .mail-telefon  {
       padding: 20px 0 20px 0;
       margin-left: 20px;
 
@@ -116,7 +115,6 @@ main {
     }
 
     .our-team-images {
-      width: 100%;
       display: grid;
       grid-template-columns: repeat(auto-fill, 200px);
       grid-template-rows: repeat(auto-fill, 300px);
@@ -164,7 +162,6 @@ main {
 }
 
 .contact-formulär {
-  width: 100%;
   padding: 20px 0;
   border: 1px solid rgb(108, 106, 106);
   background-color: rgb(215, 201, 201);
